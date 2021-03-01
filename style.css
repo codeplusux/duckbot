@@ -1,0 +1,35 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.header,
+.nav,
+.content {
+  border-right: 1px solid rgb(129, 133, 138);
+  align-items: stretch;
+  display: flex;
+}
+
+.header {
+  background-color: #eaeaea;
+  width: 15%;
+}
+
+.nav {
+  background-color: #dadada;
+  width: 20%;
+}
+
+.content {
+  background-color: #fff;
+  width: 65%;
+}
+
+.list-group {
+  width: 100%;
+}
